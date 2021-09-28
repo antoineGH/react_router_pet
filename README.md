@@ -69,4 +69,4 @@ npm start
 
 ## 5. Screenshots<a name="screenshots"></a>
 
-App ![Components Screenshot](https://templars.guru/app/github/react_quizz/quizz_1.PNG)
+App ![Components Screenshot](https://templars.guru/app/github/react-router_pet/react_router_screen.PNG)

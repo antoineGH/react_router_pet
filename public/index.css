@@ -7,7 +7,7 @@
 
 .nav-links {
   padding: 12px 180px;
-  background: #56009b;
+  background: #7a00f578;
   color: white;
   list-style: none;
   display: flex;
@@ -66,7 +66,7 @@
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  color: #56009b;
+  color: #593c75;
   margin: 40px 0 35px 0;
 }
 
@@ -134,19 +134,34 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* PET CUSTOM CSS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
 .pet h3 {
-  text-align: left;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  color: #000000;
+  font-size: 16px;
+  color: #593c75;
+  display: flex;
+  margin: 1rem 0.2rem 0.5rem 0.2rem;
+  padding-left: 0.5rem;
 }
 
 .pet p {
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  margin-bottom: 4px;
-  margin-top: 0;
+  color: #8392ab;
+  display: flex;
+  margin: 0rem 0.2rem;
+  padding-left: 0.5rem;
+}
+
+article {
+  /* background-color: #3196ef; */
+  padding-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 .prompt {
